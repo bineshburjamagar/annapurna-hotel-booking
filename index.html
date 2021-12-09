@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="./js/index.js"></script>
+    
+    <title>Hotel Booking Management System</title>
+</head>
+<body>
+    <!--Making top navigation bar-->
+    
+            <nav>
+                <ul class="menu">
+                               
+                    <li class="logo active"><a href="#"><b style="color: white;">Annapurna</b><a style="color: white;"></a> Hotel</a> </a></li> 
+                    <li class="item active"><a href="./index.html"><b>Home</b></a></li>
+                    <li class="item active"><a href="./RoomList.html"><b>Room List</b></a></li>
+                    <li class="item active"><a href="./Contact.html"><b>Contact Us</b></a></li>
+                  
+                    <li class="item button"><a href="./Login.html"><b>Log In</b></a></li>
+                    <li class="item button secondary"><a href="./SignUp.html"><b>Sign Up</b></a></li>
+
+                </ul>
+            </nav>
+
+
+
+
+            <!--Body Section-->
+           
+            <section id="wrapper" class="skewed">
+              <!-- bottom layer  -->
+                <div class="layer bottom">
+                  <div class="content-wrap">
+                    <div class="content-body">
+                      <h1>BOOK YOURS DESIRABLE ROOM</h1>
+                      <p>FEEL LIKE HOME</p>
+                    </div>
+                    <img src="./images/h2.jpg" alt="" >
+                  </div>
+                </div>
+
+                <!-- top layer -->
+                <div class="layer top">
+                    <div class="content-wrap">
+                      <div class="content-body">
+                        <h1><b>WELCOME TO<br> ANNAPURNA HOTEL </b></h1>
+                        <p><br> ANNAPURNA HOTEL is Located in Durbar Marg, Kathmandu's premier street, 5-star Hotel Annapurna has a long history of excellence in the hospitality industry. Established in 1965 and named after Annapurna, the Goddess of Abundance, the Hotel provides the finest personal service and facilities in Nepal's fabled emerald valley, and its cultural, political and commercial capital. </p>
+                      </div>
+                      <img src="./images/home.jpg" alt="">
+                    </div>
+                  </div>
+            
+                  <div class="handle"></div>
+                  </section>
+
+
+
+
+
+                
+                  
+            
+<div class="container">
+  <!-- description -->
+<h2><br>Why Hotel Annapurna?</h2>
+<p><br>The Hotel has a total of 151 recently renovated Deluxe and Heritage guestrooms, including 5 suites, equipped with modern amenities such as the latest flat screen TV. The Hotel is also famous for its popular eating outlets. The Coffee Shop, Chinese restaurant, the Arniko Room, Ghar-e-Kabab - the Juneli Bar, the Hotel is entirely Wi-Fi enabled. With extensive banquet and conferencing facilities, one of the largest hotel swimming pools, well-equipped gym, business center and the most prestigious shopping arcade. Hotel Annapurna, 'No 1 Address in Kathmandu'
+  <br><br></p>
+<div class="row">
+  <div class="column">
+    <img src="./images/room1.jpg" alt="" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="./images/room2.jpg" alt="" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="./images//room3.jpg" alt="" style="width:100%">
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+<!--FOOTER SECTION -->
+
+          
+<div class="footer">
+    <div class="footer-content">
+
+        <!-- LEFT SIDE -->
+        <div class="footer-section about">
+            <h2>ANNAPURNA HOTEL PVT LTD<br></h2>
+            <div class="content">
+             
+              <div class="social">
+                <!-- social media logos -->
+                <a href="#"><span class="fab fa-facebook-f"></span></a>
+                <a href="#"><span class="fab fa-instagram"></span></a>
+                
+              </div>
+            </div>
+        </div>
+
+        <!-- MIDDLE -->
+        <div class="footer-section address">
+            <h2>ADDRESS</h2>
+            <br>
+            <div class="content">
+              <div class="place">
+                <span class="fas fa-map-marker-alt"></span>
+                <span class="text">Annapurna, Nepal</span>
+              </div>
+              <div class="phone">
+                <span class="fas fa-phone-alt"></span>
+                <span class="text">0666666</span>
+              </div>
+              <div class="email">
+                <span class="fas fa-envelope"></span>
+                <span class="text">annapurnahotel@gmail.com</span>
+              </div>
+            </div>
+        </div>
+
+<!-- start of top button -->
+
+    <button onclick="topFunction()" id="myBtn" class="fa fa-chevron-up"></button>
+    <script>
+    var mybutton = document.getElementById("myBtn");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+    mybutton.style.display = "none";
+    }
+    }
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+        <!-- RIGHT SIDE -->
+
+
+        <div class="footer-section contact">
+
+            <h2>FEEDBACKS</h2>
+            <br>
+            <div class="content">
+              <form action="#">
+                <div class="email">
+                  <div class="text">Email *</div>
+                  <input type="email" required>
+                </div>
+                <div class="msg">
+                  <div class="text">Message *</div>
+                      <textarea cols="10" rows="5" placeholder="Message here..." required></textarea>
+                  </div>
+            
+                <div class="btn">
+                  <button type="submit">Send</button>
+                </div>
+              </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+         <span class="credit">Created By <a style="color:white"> |GROUP D|</a> </span>
+        <span class="far fa-copyright"></span><span> 2021 All rights reserved.</span>
+
+    </div>
+</div>
+
+
+    
+    
+</body>
+</html>

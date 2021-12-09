@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book Now</title>
+    <link rel="stylesheet" href="./css/book.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+
+    <nav>
+                <ul class="menu">
+                               
+                    <li class="logo active"><a href="#"><b style="color: white;">Annapurna</b><a style="color: white;"></a> Hotel</a> </a></li> 
+                    <li class="item active"><a href="./index.html">Home</a></li>
+                    <li class="item active"><a href="./RoomList.html">Room List</a></li>
+                    <li class="item active"><a href="./Contact.html">Contact Us</a></li>
+                  
+                    <li class="item button"><a href="./Login.html">Log In</a></li>
+                    <li class="item button secondary"><a href="./SignUp.html">Sign Up</a></li>
+
+                </ul>
+            </nav>
+
+    <div class="container">
+        <form class="form-group">
+            <div id="form">
+                <h1 class="text-white text-center">Book Now</h1>
+
+                <div id="first-group">
+
+                    <div id="content">
+
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" id="input-group" placeholder="First name" required="">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input type="number" id="input-group" placeholder="Phone number">
+                    </div>
+
+                    <div id="content">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <input type = "date" id = "chekin-date" placeholder="Check In Date">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <select id="input-group" style="background-color: black;">
+                            <option value="">No.of guests</option>
+                            <option value="">1-2</option>
+                            <option value="">2-3</option>
+                            <option value="">3-5</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div id="second-group">
+
+                    <div id="content">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" id="input-group" placeholder="Last name">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <input type="email" id="input-group" placeholder="Email">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <input type = "date" id = "chekin-date" placeholder="Arrival Date">
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <select id="input-group" style="background-color: black;">
+                            <option value="">Room Type</option>
+                            <option value="">Single Rooms</option>
+                            <option value="">Double Rooms</option>
+                            <option value="">Single Luxury Rooms</option>
+                            <option value="">Double Luxury Rooms</option>
+                            <option value="">Group Luxury Rooms</option>
+                            <option value="">Special luxury Rooms</option>
+                        </select>
+                    </div>
+            
+                </div>
+
+                <button type="submit" onclick="msgpopup()" id="submit-btn">Book Now →</button>
+
+            </div>
+        </form>
+
+    </div>
+    
+
+</body>
+</html>
